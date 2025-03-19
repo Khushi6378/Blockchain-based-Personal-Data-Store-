@@ -1,1 +1,16 @@
+[package]
+name = "BPDA"
+version = "1.0.0"
+authors = []
+
+[addresses]
+ MyModule = "0x28ebe2999b7675b281856c4ee56ca6bd387918c1c91b464888fa1f3648d79628"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
 
